@@ -1,0 +1,24 @@
+{
+  "name": "movie-book-tracker",
+  "version": "1.0.0",
+  "description": "A full-stack web application to track movies and books you have watched or read.",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakshithasri0507-dot/movie-book-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rakshithasri0507-dot/movie-book-tracker/issues"
+  },
+  "homepage": "https://github.com/rakshithasri0507-dot/movie-book-tracker#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
